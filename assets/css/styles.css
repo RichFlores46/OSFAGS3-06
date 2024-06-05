@@ -664,10 +664,9 @@ ion-icon{
     height: auto;
 }
 
-/* .fa-x-twitter{
-    color: #fff;
+.botones-footer #mail,
+    .botones-footer #facebook,
+    .botones-footer #youtube,
+    .botones-footer #twitter {
+        color: black;
 }
-.fa-square-facebook{
-    color: blue;
-} */
-
