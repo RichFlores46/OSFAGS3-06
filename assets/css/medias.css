@@ -77,6 +77,14 @@
         color: blue;
         text-decoration: none;
     }
+    
+    .botones-footer #mail:hover,
+    .botones-footer #facebook:hover,
+    .botones-footer #youtube:hover,
+    .botones-footer #twitter:hover {
+        color:white;
+        border-color: transparent;
+    }
 }
 
 
