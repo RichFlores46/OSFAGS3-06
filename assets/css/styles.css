@@ -3,7 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
-html{
+/* html{
     scroll-behavior: smooth;
     background-color: rgb(215, 215, 215);
     height: 100%;
@@ -14,6 +14,26 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    width: 100vw; /* Fuerza al cuerpo a ocupar el ancho completo del viewport 
+    position: relative; /* Asegura que el cuerpo no se desplace 
+} */
+
+html, body {
+    scroll-behavior: smooth;
+    height: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: rgb(215, 215, 215);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 .nav-back-logo{
     display: flex;
